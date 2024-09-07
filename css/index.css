@@ -137,3 +137,14 @@ h1.residenceName {
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  table.table-bordered{
+    border:1px solid #D8DEE0;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid #D8DEE0;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid #D8DEE0;
+}
