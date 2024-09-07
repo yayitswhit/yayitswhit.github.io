@@ -20,10 +20,9 @@
         <!-- Whenever I add "pt-2" to the div class, the other column gets the formatting, not the one with the "pt-2" specified-->
         <div class="row">̉
             <div class="col-4 pt-2">
-            <p>
+            <blockquote class="blockquote">
                 "The Landing is a fantastic living community with acceess to several amenities and locations to shop, eat, and thrive."
-            </p>
-            <footer style="font-style: italic;">Psychology Today</footer>
+            <footer class="blockquote-footer pt-2" style="font-style: italic;">Psychology Today</footer>
           </div>
             <div class="col-8">
               <img alt="Swans" src="img/swans.JPG" style="width: 15%; float: left; clear: both;">
@@ -31,48 +30,64 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
-                <table>
-                    <tr>
-                        <th>Date</th>
-                        <th>Breakfast</th>
-                        <th>Lunch</th>
-                        <th>Dinner</th>
-                    </tr>
-                    <tr>
-                        <td class="firstColumn">Monday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Deli Sandwiches w/Chips</td>
-                        <td>Gnoschi & Pesto wiSide Salad</td>
-                    </tr><tr><td class="firstColumn">Tuesday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Bacon Ranch Chicken Wrap</td>
-                        <td>Vegetarian Lasagna with Garlic Krols</td>
-                    </tr>
-                    <tr><td class="firstColumn">Wednesday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Taco Salad</td>
-                        <td>Shrimp Str Fry over Rice</td>
-                    </tr>
-                    <tr><td class="firstColumn">Thursday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Caesar Salad with Grilled Chicken</td>
-                        <td>Baked Garlic Chicken w/Butternut Squash</td></tr>
-                    <tr><td class="firstColumn">Friday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Quesadillas</td>
-                        <td>Meatloaf w/ Mashed Potatoes and Corn</td></tr>
-                    <tr><td class="firstColumn">Saturday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Grilled Cheese & Tomato Soup</td>
-                        <td>Tortellini Pasta w/ Garlic Bread</td></tr>
-                    <tr><td class="firstColumn">Sunday</td>
-                        <td>Regular Breakfast</td>
-                        <td>Crab Cakes with Clam Chowder</td>
-                        <td>Baked Haddock with Roasted Potatoes and Carrots</td></tr>                  
-                </table>
-            </div>
-            <div class="col-6"><p>There is a lot to do around <bold>New Haven</bold>, including:<br>
+          <div class="col-6">
+          <table class="table" style="--bs-table-bg: #929fba">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Dinner</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>Regular Breakfast</td>
+                <td>Bacon Ranch Chicken Wrap</td>
+                <td>Gnoschi & Pesto wiSide Salad</td>                  </td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>Regular Breakfast</td>
+                <td>Bacon Ranch Chicken Wrap</td>
+                <td>Vegetarian Lasagna with Garlic Knots</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>Regular Breakfast</td>
+                <td>Taco Salad</td>
+                <td>Shrimp Str Fry over Rice</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>Regular Breakfast</td>
+                <td>Caesar Salad with Grilled Chicken</td>
+                <td>Baked Garlic Chicken w/Butternut Squash</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>Regular Breakfast</td>
+                <td>Quesadillas</td>
+                <td>Meatloaf w/ Mashed Potatoes and Corn</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Regular Breakfast</td>
+                <td>Grilled Cheese & Tomato Soup</td>
+                <td>Tortellini Pasta w/ Garlic Bread</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Regular Breakfast</td>
+                <td>Crab Cakes with Clam Chowder</td>
+                <td>Baked Haddock with Roasted Potatoes and Carrots</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+      
+                <div class="col-6"><p>There is a lot to do around <bold>New Haven</bold>, including:<br>
                 <dl>
                 <ol>
                 <dt><li><strong>Yale</strong></li></dt>
@@ -87,11 +102,24 @@
               </p>
             </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <p>Test</p>
+            <span style="float: right;">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="amenities.html">Amenities</a></li>
+              <li><a href="dining.html">Dining</a></li>
+              <li><a href="activities.html">Activities</a></li>
+            </ul>
+            </span>
+        </div>
+        </div>
     </body>
     <!-- Footer -->
    <footer
    class="text-center text-lg-start text-white"
-   style="background-color: #929fba"
+   style="background-color: #929fba; clear: both;"
    >
 <!-- Grid container -->
 <div class="container p-4 pb-0">
